@@ -1,12 +1,10 @@
 # Ember-s-VTRN
 
-# 🐾 Sistema de Reservas y Agenda - Veterinaria
+# 🐾 Sistema de Reservas y Agenda - Veterinaria (Ember´s VTRN)
 
 ## 📌 Introducción
 Este proyecto implementa una plataforma web para la **gestión de citas en una clínica veterinaria**.  
 El sistema permite a los administradores configurar la disponibilidad de servicios (consultas médicas, vacunaciones, cirugías, estética animal, etc.), mientras que los clientes pueden consultar horarios y reservar en tiempo real.
-
-El objetivo principal es **evitar doble reservación**, respetar la duración de cada servicio y brindar al administrador una **agenda clara y organizada**.
 
 ---
 
@@ -17,7 +15,6 @@ El objetivo principal es **evitar doble reservación**, respetar la duración de
 - **[Reservaciones](ca://s?q=Reservaciones_veterinaria)**: con datos del cliente, mascota, fecha y servicio.
 - **[Panel administrativo](ca://s?q=Panel_administrativo_veterinaria)**: vista de agenda en lista o calendario.
 - **[Portal del cliente](ca://s?q=Portal_cliente_veterinaria)**: consulta de disponibilidad y gestión de citas.
-- **[Estados de reservación](ca://s?q=Estados_de_reservacion)**: pendiente, confirmada, cancelada, completada.
 - **[Historial de citas](ca://s?q=Historial_de_reservaciones_veterinaria)**: por cliente y mascota.
 - **[Filtros de búsqueda](ca://s?q=Filtros_de_busqueda_reservaciones)**: por fecha, servicio y estado.
 
@@ -28,7 +25,7 @@ El objetivo principal es **evitar doble reservación**, respetar la duración de
 ### 👩‍⚕️ Backoffice / Panel Administrativo
 - **[Crear servicio](ca://s?q=Crear_servicio_veterinaria)**: registrar consulta, vacunación, cirugía, etc.
 - **[Configurar horarios](ca://s?q=Configurar_horarios_veterinaria)**: definir disponibilidad semanal.
-- **[Bloquear fechas](ca://s?q=Bloquear_fechas_veterinaria)**: vacaciones, mantenimiento o emergencias.
+- **[Bloquear fechas](ca://s?q=Bloquear_fechas_veterinaria)**: vacaciones o mantenimiento.
 - **[Ver agenda](ca://s?q=Ver_agenda_veterinaria)**: citas organizadas por día/semana.
 - **[Confirmar o cancelar](ca://s?q=Confirmar_o_cancelar_reservacion)**: gestión de estados de citas.
 - **[Reservación manual](ca://s?q=Reservacion_manual_veterinaria)**: registro de citas telefónicas o presenciales.
@@ -46,11 +43,9 @@ El objetivo principal es **evitar doble reservación**, respetar la duración de
 ---
 
 ## ⚙️ Tecnologías Utilizadas
-- **Frontend**: React / Vue.js  
-- **Backend**: Node.js con Express  
-- **Base de Datos**: MySQL / PostgreSQL  
-- **Autenticación**: JWT  
-- **Estilos**: TailwindCSS / Bootstrap  
+- **Frontend**: Html/Css  
+- **Backend**: Java  
+- **Base de Datos**: SQL   
 
 ---
 
