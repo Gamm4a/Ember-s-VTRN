@@ -1,6 +1,6 @@
-# Ember-s-VTRN
+# CtrolPET
 
-#  Sistema de Reservas y Agenda - Veterinaria (Ember´s VTRN)
+#  Sistema de Reservas y Agenda - Veterinaria (Ember´s Enterprise)
 
 ##  Introducción
 Este proyecto implementa una plataforma web para la **gestión de citas en una clínica veterinaria**.  
