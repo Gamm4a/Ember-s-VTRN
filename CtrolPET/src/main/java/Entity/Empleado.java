@@ -1,11 +1,12 @@
 package Entity;
 
 import Entity.Enum.Puesto;
+import org.bson.types.ObjectId;
 
 import java.util.List;
 
 public class Empleado {
-    //ObjectId id_Empleado
+    ObjectId id_Empleado;
     String nombre;
     String ap_paterno;
     String ap_materno;
@@ -13,7 +14,8 @@ public class Empleado {
     Puesto puesto;
     List<Horario> horarios;
 
-    public Empleado(String nombre, String ap_paterno, String ap_materno, String telefono, Puesto puesto, List<Horario> horarios) {
+    public Empleado(ObjectId id,String nombre, String ap_paterno, String ap_materno, String telefono, Puesto puesto, List<Horario> horarios) {
+        this.id_Empleado=id;
         this.nombre = nombre;
         this.ap_paterno = ap_paterno;
         this.ap_materno = ap_materno;
@@ -23,6 +25,14 @@ public class Empleado {
     }
 
     public Empleado() {
+    }
+
+    public ObjectId getId_Empleado() {
+        return id_Empleado;
+    }
+
+    public void setId_Empleado(ObjectId id_Empleado) {
+        this.id_Empleado = id_Empleado;
     }
 
     public String getNombre() {
