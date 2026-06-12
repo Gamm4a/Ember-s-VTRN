@@ -52,4 +52,4 @@ El sistema permite a los administradores configurar la disponibilidad de servici
 ##  Instalación y Uso
 1. Clonar el repositorio:
    ```bash
-   git clone https://github.com/usuario/veterinaria-reservas.git
+   git clone https://github.com/Gamm4a/CtrolPET.git
