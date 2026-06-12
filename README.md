@@ -45,7 +45,7 @@ El sistema permite a los administradores configurar la disponibilidad de servici
 ##  Tecnologías Utilizadas
 - **Frontend**: Html/Css  
 - **Backend**: Java  
-- **Base de Datos**: SQL   
+- **Base de Datos**: NoSQL (MongoDB)   
 
 ---
 
